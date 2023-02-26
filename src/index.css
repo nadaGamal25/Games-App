@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+  --bg-color:#131722;
+  --main-font: 'Montserrat', sans-serif;
+  --light-bg:#24baef;
+  --font-color:#fff;
+  --second-color:#0f0e22;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: var(--main-font) !important;
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+}
+a{
+  color: var(--font-color) !important;
+  text-decoration: none !important;
+}
+.navbar{
+  background-color:rgba(30, 41, 89, 0.6);
+  margin: 0 !important;
+}
+.logo{
+  width: 90px;
+}
+.my-input{
+  background-color: transparent !important;
+  border: solid 3px #a8a8a83d !important;
+  color: #fff !important;
+}
+/* .nameinput{
+  display: inline !important;
+  width: 49.3% !important;
+} */
+.offline{
+  background-color: var(--bg-color);
+  box-shadow: 10px 10px 10px #fff;
+  padding: 30px;
+  position: fixed;
+  left: 50px;
+  bottom: 50px;
+  z-index: 9999;
+}
+
+.sign-bg{
+  background-image: url(../src/bg.jpg);
+  background-size: cover;
+  margin: 0 !important;
+}
+.sign-layout{
+  background-color:rgba(30, 41, 89, 0.8);
+}
+.caption h1{
+  color:var(--second-color);
+  text-shadow: -1px -1px 0 rgb(0 0 0 / 30%);
+  font-weight: 700;
+}
+form{
+  padding-bottom: 20px;
+  border-bottom: solid 1px #a8a8a83d;
+}
+.sign-footer p{
+  color: var(--second-color) !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+.sign-link{
+  color: var(--light-bg) !important;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 19px;
+
+}
+.sign-brdr{
+  color: var(--light-bg) !important;
+  border: solid 1px var(--light-bg);
+  border-radius: 5px;
+}
+.dropdown-item{
+  color: var(--second-color) !important;
+}
+.caption-home{
+  background-image: url(../g.jpg);
+  background-size: 100% 100%;
+}
+.overlay-caption{
+  background-color: rgba(30, 41, 89, 0.6);
+}
+.overlay-caption span{
+  color: var(--light-bg);
+
+}
+.browseBtn{
+  padding:12px 20px;
+  border: solid 1px #a8a8a83d;
+  border-radius: 4px;
+  background:transparent;
+  transition: all 0.3s;
+}
+.browseBtn:hover{
+  background-color: #a8a8a83d;
+}
+.browseBtn a{
+  text-decoration: none !important;
+}
+.game{
+  transition: all 0.2s;
+}
+.game:hover{
+  transform: scale(1.05);
+}
+.caption-geme{
+  background-color:rgba(30, 41, 89, 0.8) !important;
+  
+}
+.caption-geme span{
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 3px 5px;
+  margin-right: 4px;
+  border-radius: 6px;
+}
+.fa-plus{
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 3px 4px 3px 4px !important;
+  border-radius: 4px;
+}
+.caption-details h4{
+  color: #dad5d53d;
+  font-size: 18px;
+}
+.alert-danger{
+  background-color: transparent !important;
+  color: red !important;
+  border: none !important;
+  padding: 2px !important;
+}
