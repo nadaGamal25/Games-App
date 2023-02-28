@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Games-app/static/css/main.3a32d8bd.css",
+    "main.js": "/Games-app/static/js/main.19806c40.js",
+    "static/js/787.ac34fb11.chunk.js": "/Games-app/static/js/787.ac34fb11.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Games-app/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/bg.jpg": "/Games-app/static/media/bg.49f0a86800ec522d1c97.jpg",
+    "static/media/fa-brands-400.ttf": "/Games-app/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/logo (1).png": "/Games-app/static/media/logo (1).548dc5719c2345c22eef.png",
+    "static/media/fa-solid-900.woff2": "/Games-app/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/Games-app/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/g.jpg": "/Games-app/static/media/g.79838f93fbbdc16597e3.jpg",
+    "static/media/fa-regular-400.ttf": "/Games-app/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/Games-app/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Games-app/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Games-app/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/Games-app/index.html",
+    "main.3a32d8bd.css.map": "/Games-app/static/css/main.3a32d8bd.css.map",
+    "main.19806c40.js.map": "/Games-app/static/js/main.19806c40.js.map",
+    "787.ac34fb11.chunk.js.map": "/Games-app/static/js/787.ac34fb11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a32d8bd.css",
+    "static/js/main.19806c40.js"
+  ]
+}
