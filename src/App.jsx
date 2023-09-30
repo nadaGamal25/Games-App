@@ -43,23 +43,42 @@ function App() {
 
   let routers =createBrowserRouter([
     {path:'/', element:<Layout setuserData={setuserData} userData={userData}/>,children:[
-      {index: true ,element:<ProtectedRoute userData={userData}> <Home/></ProtectedRoute>},
-      {path:'all',element:<ProtectedRoute userData={userData}><All/></ProtectedRoute>},
-      {path:'pc',element:<ProtectedRoute userData={userData}><Pc/></ProtectedRoute> },
-      {path:'browser',element:<ProtectedRoute userData={userData}><Browser/></ProtectedRoute>},
-      {path:'itemdetails/:x',element:<ProtectedRoute userData={userData}><ItemDetails/></ProtectedRoute>},
-      {path:'date',element:<ProtectedRoute userData={userData}><Date/></ProtectedRoute>},
-      {path:'popularity',element:<ProtectedRoute userData={userData}><Popularity/></ProtectedRoute>},
-      {path:'alphabet',element:<ProtectedRoute userData={userData}><Alphabet/></ProtectedRoute>},
-      {path:'relevance',element:<ProtectedRoute userData={userData}><Relevance/></ProtectedRoute>},
-      {path:'racing',element:<ProtectedRoute userData={userData}><Racing/></ProtectedRoute>},
-      {path:'sports',element:<ProtectedRoute userData={userData}><Sports/></ProtectedRoute>},
-      {path:'shooter',element:<ProtectedRoute userData={userData}><Shooter/></ProtectedRoute>},
-      {path:'zombie',element:<ProtectedRoute userData={userData}><Zombie/></ProtectedRoute>},
+      {index: true ,element: <Home/>},
+      {path:'all',element:<All/>},
+      {path:'pc',element:<Pc/>},
+      {path:'browser',element:<Browser/>},
+      {path:'itemdetails/:x',element:<ItemDetails/>},
+      {path:'date',element:<Date/>},
+      {path:'popularity',element:<Popularity/>},
+      {path:'alphabet',element:<Alphabet/>},
+      {path:'relevance',element:<Relevance/>},
+      {path:'racing',element:<Racing/>},
+      {path:'sports',element:<Sports/>},
+      {path:'shooter',element:<Shooter/>},
+      {path:'zombie',element:<Zombie/>},
       {path:'login',element:<Login saveUserData={saveUserData}/>},
       {path:'register' ,element:<Register/>}
     ]}  
   ])
+  // let routers =createBrowserRouter([
+  //   {path:'/', element:<Layout setuserData={setuserData} userData={userData}/>,children:[
+  //     {index: true ,element:<ProtectedRoute userData={userData}> <Home/></ProtectedRoute>},
+  //     {path:'all',element:<ProtectedRoute userData={userData}><All/></ProtectedRoute>},
+  //     {path:'pc',element:<ProtectedRoute userData={userData}><Pc/></ProtectedRoute> },
+  //     {path:'browser',element:<ProtectedRoute userData={userData}><Browser/></ProtectedRoute>},
+  //     {path:'itemdetails/:x',element:<ProtectedRoute userData={userData}><ItemDetails/></ProtectedRoute>},
+  //     {path:'date',element:<ProtectedRoute userData={userData}><Date/></ProtectedRoute>},
+  //     {path:'popularity',element:<ProtectedRoute userData={userData}><Popularity/></ProtectedRoute>},
+  //     {path:'alphabet',element:<ProtectedRoute userData={userData}><Alphabet/></ProtectedRoute>},
+  //     {path:'relevance',element:<ProtectedRoute userData={userData}><Relevance/></ProtectedRoute>},
+  //     {path:'racing',element:<ProtectedRoute userData={userData}><Racing/></ProtectedRoute>},
+  //     {path:'sports',element:<ProtectedRoute userData={userData}><Sports/></ProtectedRoute>},
+  //     {path:'shooter',element:<ProtectedRoute userData={userData}><Shooter/></ProtectedRoute>},
+  //     {path:'zombie',element:<ProtectedRoute userData={userData}><Zombie/></ProtectedRoute>},
+  //     {path:'login',element:<Login saveUserData={saveUserData}/>},
+  //     {path:'register' ,element:<Register/>}
+  //   ]}  
+  // ])
 
   return (<>
   <div>

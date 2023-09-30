@@ -12,7 +12,7 @@ export default function MediaItem({item}) {
           </div>
           <div className='caption-geme p-3'> 
           <div className="d-flex justify-content-between py-1">
-            <h3 className='h4 my-2'>{item.title.slice(0,10)}.. {item.name}</h3>
+            <h3 className='h4 my-2'>{item.title.slice(0,7)}.. {item.name}</h3>
             <div>
             <button className='btn btn-primary'><Link>FREE</Link></button> 
             </div>

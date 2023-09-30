@@ -64,7 +64,7 @@ function submitLoginForm(e){
   return (
     <>
     <div className='sign-bg min-vh-100 d-flex justify-content-center align-items-center'>
-      <div className='sign-layout w-75 m-auto p-5 '>
+      <div className='sign-layout w-75 m-auto p-2 '>
         <div className="caption text-center">
         <img src={gameimg} className='gameimg w-25' alt="" />
         <h1 className='h3'>Log in to GameOver</h1>

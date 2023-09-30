@@ -7,16 +7,17 @@ export default function Pc() {
   const [pcGames, setPcGames] =useState([]);
 
   useEffect(()=>{
-    const options = {
-      method: 'GET',
-      url: 'https://free-to-play-games-database.p.rapidapi.com/api/games',
-      params: {platform: 'pc'},
-      headers: {
-        'X-RapidAPI-Key': 'b52128808dmsh5826403ec30ac21p1b9548jsnfca5769e0b68',
-        'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com'
-      }
-    };
-    
+   
+const options = {
+  method: 'GET',
+  url: 'https://free-to-play-games-database.p.rapidapi.com/api/games',
+  params: {platform: 'pc'},
+  headers: {
+    'X-RapidAPI-Key': 'cf0d9cd16cmshd3e4b81858b75edp1c7f9bjsn772cfe12d6c8',
+    'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com'
+  }
+};
+
     axios.request(options).then(function (response) {
       setPcGames(response.data)
     }).catch(function (error) {
@@ -39,21 +40,3 @@ export default function Pc() {
   )
 }
 
-//   const axios = require("axios");
-
-// const options = {
-//   method: 'GET',
-//   url: 'https://free-to-play-games-database.p.rapidapi.com/api/games',
-//   params: {platform: 'pc'},
-//   headers: {
-//     'X-RapidAPI-Key': 'b52128808dmsh5826403ec30ac21p1b9548jsnfca5769e0b68',
-//     'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com'
-//   }
-// };
-
-// axios.request(options).then(function (response) {
-// 	console.log(response.data);
-//   setPcGames(response.data)
-// }).catch(function (error) {
-// 	console.error(error);
-// });
