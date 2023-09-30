@@ -14,7 +14,8 @@ export default function Navbar({userData ,logout}) {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      {userData?<ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      {/* {userData? */}
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <Link className="nav-link" to='/'>Home</Link>
           </li>
@@ -56,7 +57,8 @@ export default function Navbar({userData ,logout}) {
           </ul>
         </li>
                        
-      </ul>:''}
+      </ul>
+      {/* :''} */}
 
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         
